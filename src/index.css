@@ -2,26 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.courier-prime-regular {
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.courier-prime-bold {
-  font-family: "Courier Prime", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.courier-prime-regular-italic {
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.courier-prime-bold-italic {
-  font-family: "Courier Prime", monospace;
-  font-weight: 700;
-  font-style: italic;
-}
+ html{
+    --primary-color:"#64FFDA";
+    scroll-behavior: smooth;
+ }
+ ::-webkit-scrollbar-track
+ {
+   border-radius: 10px;
+   background-color: #112240;
+ }
+ 
+::-webkit-scrollbar
+ {
+   width: 4px;
+   background-color: #112240;
+ }
+ 
+ ::-webkit-scrollbar-thumb
+ {
+   border-radius: 10px;
+   background-color: #64FFDA;
+ }
