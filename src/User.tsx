@@ -1,10 +1,11 @@
 import {IconBrandX,IconBadgeCc , IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
+
+
 const Info = {
     name: "Shreyas Jaiswal",
     stack: ["Frontend Developer", "Competitive Programmer", "Freelancer"],
     bio: "I’m a pre-final year engineering student with a passion for technology and its real-world impact. Currently, I’m focused on mastering Data Structures and Algorithms in C++, sharpening my Backend development skills,and exploring tech solutions that address real-life challenges.! "
 }
-
 
 const ProjectInfo = [
     {
@@ -63,7 +64,6 @@ const ProjectInfo = [
     }
 ]
 
-
 const SkillInfo = [
     {
         title: "Frontend",
@@ -92,6 +92,7 @@ const socialLinks = [
 
 ];
 
+
 const ExperienceInfo = [
     {
         role: "Role at Company 1",
@@ -99,7 +100,7 @@ const ExperienceInfo = [
         date: "Date",
         desc: "Description for Abes.",
         skills: ["Skill 1", "Skill 2"],
-        logo: require('./assets/images/abes.png'),  // Path to the logo image
+       
     },
     {
         role: "Role at Company 2",
@@ -107,7 +108,7 @@ const ExperienceInfo = [
         date: "Date",
         desc: "Description for Gyandeep.",
         skills: ["Skill 1", "Skill 2"],
-        logo: require('./assets/images/gyandeep.png'),
+        
     },
     {
         role: "Role at Company 3",
@@ -115,10 +116,9 @@ const ExperienceInfo = [
         date: "Date",
         desc: "Description for Enigma.",
         skills: ["Skill 1", "Skill 2"],
-        logo: require('./assets/images/enigma.png'),
+      
     }
 ];
-
 
 const Slugs = [
     "typescript",
