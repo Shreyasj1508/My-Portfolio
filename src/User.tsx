@@ -1,5 +1,7 @@
 import {IconBrandX,IconBadgeCc , IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
-
+import abesImage from './assets/images/abes.jpg';
+import gyandeepImage from './assets/images/gyandeep.jpg';
+import enigmaImage from './assets/images/enigma.jpg';
 
 const Info = {
     name: "Shreyas Jaiswal",
@@ -95,30 +97,64 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
-        role: "Role at Company 1",
-        company: "Abes",
-        date: "Date",
-        desc: "Description for Abes.",
-        skills: ["Skill 1", "Skill 2"],
+        role: "Gyandeep English School",
+        company: "Student",
+        image: gyandeepImage,
+        date: "Apr 2007 - Aug 2021",
+        desc: "Completed primary and secondary education, focusing on English language skills.",
+        skills: ["English Language", "Communication", "Teamwork"],
+  
        
     },
     {
-        role: "Role at Company 2",
-        company: "Gyandeep",
-        date: "Date",
-        desc: "Description for Gyandeep.",
-        skills: ["Skill 1", "Skill 2"],
-        
+      
+        role: "ABES Engineering College",
+        company: "Student",
+        image: abesImage,
+        date: "Nov 2022 - Present",
+        desc: "Pursuing a degree in Computer Science, gaining knowledge in programming and engineering principles.",
+        skills: ["Programming", "Problem Solving", "Collaboration", "Communication", "Leadership", "Time Management"],
+ 
     },
     {
-        role: "Role at Company 3",
-        company: "Enigma",
-        date: "Date",
-        desc: "Description for Enigma.",
-        skills: ["Skill 1", "Skill 2"],
-      
+        role: "Technical Team Member",
+        company: "Enigma Programming Club",
+        image: enigmaImage,
+        date: "Dec 2023 - Present",
+        desc: "Contributing to technical projects and team collaborations.",
+        skills: ["Team Leadership", "Competitive Programming", "Frontend Development"],
+   
     }
 ];
+
+
+// const ExperienceInfo = [
+//     {
+//         role: "Student",
+//         company: "Gyandeep English School",
+//         logo: require('./assets/images/gyandeep.jpg'),
+//         date: "Apr 2007 - Aug 2021",
+//         desc: "Completed primary and secondary education, focusing on English language skills.",
+//         skills: ["English Language", "Communication", "Teamwork"],
+//     },
+//     {
+//         role: "Student",
+//         company: "ABES Engineering College",
+//         logo: require('./assets/images/abes.jpg'),
+//         date: "Nov 2022 - Present",
+//         desc: "Pursuing a degree in Computer Science, gaining knowledge in programming and engineering principles.",
+//         skills: ["Programming", "Problem Solving", "Collaboration", "Communication", "Leadership", "Time Management"],
+//     },
+//     {
+//         role: "Technical Team Member",
+//         company: "Enigma Programming Club",
+//         logo: require('./assets/images/enigma.jpg'),
+//         date: "Dec 2023 - Present",
+//         desc: "Contributing to technical projects and team collaborations.",
+//         skills: ["Team Leadership", "Competitive Programming", "Frontend Development"],
+//     },
+// ];
+
 
 const Slugs = [
     "typescript",
