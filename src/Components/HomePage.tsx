@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import About from "./About";
-import Contact from "./Contact";
-import Experience from "./Experience";
-import Footer from "./Footer";
+import Experience from './Experience';
+import Contact from './Contact';
+import Footer from './Footer';
+
 import Header from "./header"
 import { Loader } from "./Loader";
 import Mail from "./Mail";

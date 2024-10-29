@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "target": "es5",
     "lib": [
       "dom",

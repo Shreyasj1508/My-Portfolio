@@ -1,7 +1,7 @@
 import { Info } from "../User";
 import Typewriter from "typewriter-effect";
 import { Button, useMatches } from "@mantine/core";
- import ResumeViewer from "./ResumeViewer";
+import ResumeViewer from "./ResumeViewer";
 import { useDisclosure } from "@mantine/hooks";
 import { IconDownload } from "@tabler/icons-react";
 import Particles from "./magicui/Particles";

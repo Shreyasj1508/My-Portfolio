@@ -1,15 +1,15 @@
 "use client";
-
+import * as ReactIconCloud from "react-icon-cloud"; // Keep this import as is
 import { useEffect, useMemo, useState } from "react";
 import { useTheme } from "next-themes";
 import {
-  Cloud,
   fetchSimpleIcons,
-  ICloud,
   renderSimpleIcon,
-  SimpleIcon,
+  ICloud, // Direct import without alias
+  SimpleIcon as SimpleIconType, // Alias for clarity
 } from "react-icon-cloud";
 
+// Define the props for the cloud
 export const cloudProps: Omit<ICloud, "children"> = {
   containerProps: {
     style: {
@@ -33,11 +33,11 @@ export const cloudProps: Omit<ICloud, "children"> = {
     outlineColour: "#0000",
     maxSpeed: 0.07,
     minSpeed: 0.05,
-    // dragControl: false,
   },
 };
 
-export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
+// Update renderCustomIcon function to use the correct type
+export const renderCustomIcon = (icon: SimpleIconType, theme: string) => {
   const bgHex = theme === "light" ? "#f3f2ef" : "#080510";
   const fallbackHex = theme === "light" ? "#6e6e73" : "#ffffff";
   const minContrastRatio = theme === "dark" ? 2 : 1.2;
@@ -52,7 +52,7 @@ export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
       href: undefined,
       target: undefined,
       rel: undefined,
-      onClick: (e: any) => e.preventDefault(),
+      onClick: (e: React.MouseEvent) => e.preventDefault(),
     },
   });
 };
@@ -80,10 +80,8 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
   }, [data, theme]);
 
   return (
-    // @ts-ignore
-    <Cloud {...cloudProps}>
-            // @ts-ignore
-      <>{renderedIcons}</>
-    </Cloud>
+    <ReactIconCloud.Cloud {...cloudProps}>
+      {renderedIcons}
+    </ReactIconCloud.Cloud>
   );
 }
