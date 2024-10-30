@@ -2,7 +2,7 @@ import {IconBrandX,IconBadgeCc , IconBrandGithub, IconBrandInstagram, IconBrandL
 import abesImage from './assets/images/abes.jpg';
 import gyandeepImage from './assets/images/gyandeep.jpg';
 import enigmaImage from './assets/images/enigma.jpg';
-// Importing images
+
 import ManageMateImg from './assets/ManageMate.png';
 import AnimatedImg from './assets/Animated.png';
 import StudyImg from './assets/study.png';
@@ -20,16 +20,16 @@ const ProjectInfo = [
     {
         title: "ManageMate - Empowering Your Workforce",
         desc: "This project is a task management dashboard built with React and Tailwind CSS, with data stored in localStorage for persistence.",
-        image: ManageMateImg, // Use imported image
+        image: ManageMateImg, 
         live: true,
-        technologies: ["HTML", "Tailwind CSS", "JavaScript", "React"],
+        technologies: ["HTML", "Tailwind CSS", "JavaScript", "React","TypeScript"],
         link: "https://github.com/Shreyasj1508/ManageMate",
         github: "https://github.com/Shreyasj1508/ManageMate/"
     },
     {
         title: "SwingScape: Sidcup Family Golf",
         desc: "Sidcup Family Golf is an animated website crafted with HTML, CSS, JavaScript, and GSAP to bring the excitement of golf to life online.",
-        image: AnimatedImg, // Use imported image
+        image: AnimatedImg, 
         live: true,
         technologies: ["HTML", "Tailwind CSS", "JavaScript", "GSAP"],
         link: "https://github.com/Shreyasj1508/Animated-Website",
@@ -38,7 +38,7 @@ const ProjectInfo = [
     {
         title: "EduBridge - Bridging Knowledge Online",
         desc: "EduBridge brings live, personalized online learning to you! Connect with expert teachers, improve skills, and explore new subjects—all from home.",
-        image: StudyImg, // Use imported image
+        image: StudyImg, 
         live: false,
         technologies: ["HTML", "CSS"],
         link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/StudySyn",
@@ -47,7 +47,7 @@ const ProjectInfo = [
     {
         title: "Sorting Visualizer",
         desc: "The Sorting Visualizer is an interactive web application that demonstrates sorting algorithms, allowing users to visualize each algorithm in action.",
-        image: SortingImg, // Use imported image
+        image: SortingImg, 
         live: false,
         technologies: ["HTML", "CSS", "JavaScript"],
         link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Sorting_Visualizer",
@@ -56,7 +56,7 @@ const ProjectInfo = [
     {
         title: "Magical Chair",
         desc: "The Magical Chair Color Changer is an interactive website where users can select colors to change the chair's appearance.",
-        image: ChairImg, // Use imported image
+        image: ChairImg, 
         live: false,
         technologies: ["HTML", "CSS"],
         link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Modern%20Chair",
@@ -65,7 +65,7 @@ const ProjectInfo = [
     {
         title: "CodeX Code Editor",
         desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, featuring syntax highlighting for popular programming languages.",
-        image: CodeImg, // Use imported image
+        image: CodeImg, 
         live: false,
         technologies: ["HTML", "CSS", "JavaScript"],
         link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Code-Editor",
@@ -73,26 +73,25 @@ const ProjectInfo = [
     }
 ];
 
-
-const SkillInfo = [
+ const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "JavaScript", "React JS", "Redux", "Tailwind CSS", "GSAP", "Mantine", "Tabler"
-        ]
+        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"]
     },
     {
         title: "Backend",
-        skills: ["Node JS", "Express JS", "MySQL", "MongoDB", "Firebase"]
+        skills: ["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase"]
     },
     {
         title: "Languages",
-        skills: ["C", "C++","Python" ,"JavaScript", "TypeScript"]
+        skills: ["C", "C++", "Java", "JavaScript", "TypeScript"]
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code"]
+        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
     }
-]
+];
+
 const socialLinks = [
     { link: "https://github.com/Shreyasj1508", icon: IconBrandGithub },
     { link: "https://www.linkedin.com/in/shreyas-jaiswal1508", icon: IconBrandLinkedin },

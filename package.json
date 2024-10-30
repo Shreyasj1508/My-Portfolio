@@ -4,8 +4,8 @@
   "homepage": "https://shreyasj1508.github.io/My-Portfolio",
   "private": true,
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,6 +46,7 @@
     "@mantine/form": "^7.13.2",
     "@mantine/hooks": "^7.13.2",
     "@tabler/icons-react": "^3.19.0",
+    "aos": "^2.3.4",
     "firebase": "^11.0.1",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",
