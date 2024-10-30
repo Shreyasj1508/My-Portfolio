@@ -2,6 +2,9 @@ import { ActionIcon, Modal, ScrollArea, Tooltip, useMatches } from "@mantine/cor
 import { IconArrowBigDownLineFilled } from "@tabler/icons-react";
 import { Document, Page } from "react-pdf";
 import { Info } from "../User";
+import { pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `/node_modules/pdfjs-dist/build/pdf.worker.min.js`;
+
 
 const ResumeViewer = (props: any) => {
     const btn=useMatches({
@@ -23,7 +26,7 @@ const ResumeViewer = (props: any) => {
                 <Modal.CloseButton size="md" iconSize="30px" className="!bg-bgColor !text-red-500" />
             </Modal.Header>
             <Modal.Body className="!bg-bgColor xs-mx:!p-2 !pt-2 !border-primaryColor  !border-2 xs-mx:!border xs-mx:!border-t-0 !border-t-0 !rounded-bl-3xl !rounded-br-3xl ">
-                <Document className="w-full !rounded-2xl !overflow-hidden !min-w-40 !min-h-14" file="Resume.pdf" >
+                <Document className="w-full !rounded-2xl !overflow-hidden !min-w-40 !min-h-14" file="./Resume.pdf" >
                     <Page className="w-full !min-w-40 !min-h-14 md-mx:[&>.react-pdf\_\_Page\_\_canvas]:!w-full md-mx:[&>.react-pdf\_\_Page\_\_canvas]:!h-auto" pageNumber={1} renderTextLayer={false} renderAnnotationLayer={false} />
                 </Document>
             </Modal.Body>
