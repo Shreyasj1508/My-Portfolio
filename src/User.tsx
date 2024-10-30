@@ -2,69 +2,77 @@ import {IconBrandX,IconBadgeCc , IconBrandGithub, IconBrandInstagram, IconBrandL
 import abesImage from './assets/images/abes.jpg';
 import gyandeepImage from './assets/images/gyandeep.jpg';
 import enigmaImage from './assets/images/enigma.jpg';
+// Importing images
+import ManageMateImg from './assets/ManageMate.png';
+import AnimatedImg from './assets/Animated.png';
+import StudyImg from './assets/study.png';
+import SortingImg from './assets/sorting.png';
+import ChairImg from './assets/chair.png';
+import CodeImg from './assets/code.png';
+
 
 const Info = {
     name: "Shreyas Jaiswal",
     stack: ["Frontend Developer", "Competitive Programmer", "Freelancer"],
     bio: "I’m a pre-final year engineering student with a passion for technology and its real-world impact. Currently, I’m focused on mastering Data Structures and Algorithms in C++, sharpening my Backend development skills,and exploring tech solutions that address real-life challenges.! "
 }
-
 const ProjectInfo = [
     {
-        title: "ManageMate- Empowering Your Workforce ",
-        desc: "This project is a task management dashboard built with React and Tailwind CSS, with data stored in localStorage for persistence. It includes an Admin Dashboard where admins can create, assign, and manage tasks, as well as a User Dashboard where users can view and complete assigned tasks.",
-        image: "ManageMate.png",
+        title: "ManageMate - Empowering Your Workforce",
+        desc: "This project is a task management dashboard built with React and Tailwind CSS, with data stored in localStorage for persistence.",
+        image: ManageMateImg, // Use imported image
         live: true,
-        technologies: ["HTML","Tailwind CSS", "javascript", "React"],
+        technologies: ["HTML", "Tailwind CSS", "JavaScript", "React"],
         link: "https://github.com/Shreyasj1508/ManageMate",
         github: "https://github.com/Shreyasj1508/ManageMate/"
     },
     {
         title: "SwingScape: Sidcup Family Golf",
-        desc: "Sidcup Family Golf is an animated website crafted with HTML, CSS, JavaScript, and GSAP to bring the excitement of golf to life online. It offers a fun, interactive experience perfect for golf enthusiasts of all ages",
-        image: "Animated.png",
+        desc: "Sidcup Family Golf is an animated website crafted with HTML, CSS, JavaScript, and GSAP to bring the excitement of golf to life online.",
+        image: AnimatedImg, // Use imported image
         live: true,
-        technologies: ["HTML","Tailwind CSS", "javascript", "GSAP"],
+        technologies: ["HTML", "Tailwind CSS", "JavaScript", "GSAP"],
         link: "https://github.com/Shreyasj1508/Animated-Website",
         github: "https://github.com/Shreyasj1508/Animated-Website"
     },
     {
         title: "EduBridge - Bridging Knowledge Online",
-        desc: "EduBridge brings live, personalized online learning to you! Connect with expert teachers, improve skills, and explore new subjects—all from home. Education made easy, anytime, anywhere! Join us and unlock your potential today and embark on your learning journey",
-        image: "study.png",
+        desc: "EduBridge brings live, personalized online learning to you! Connect with expert teachers, improve skills, and explore new subjects—all from home.",
+        image: StudyImg, // Use imported image
         live: false,
-        technologies: ["HTML","CSS"],
+        technologies: ["HTML", "CSS"],
         link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/StudySyn",
         github: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/StudySyn"
     },
     {
         title: "Sorting Visualizer",
-        desc: "The Sorting Visualizer is an interactive web application that demonstrates sorting algorithms, including Bubble Sort, Insertion Sort, and Selection Sort. Built with HTML, CSS, and JavaScript, it allows users to visualize each algorithm in action on a dynamically generated array. Users can adjust animation speed and observe how different algorithms perform, making it an engaging tool for learning about sorting techniques.",
-        image: "sorting.png",
+        desc: "The Sorting Visualizer is an interactive web application that demonstrates sorting algorithms, allowing users to visualize each algorithm in action.",
+        image: SortingImg, // Use imported image
         live: false,
-        technologies: ["HTML","CSS", "javascript",],
+        technologies: ["HTML", "CSS", "JavaScript"],
         link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Sorting_Visualizer",
         github: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Sorting_Visualizer"
     },
     {
         title: "Magical Chair",
-        desc: "The Magical Chair Color Changer is an interactive website created with HTML and CSS. Users can select from a palette of colors to instantly change the chair's appearance, providing a fun and engaging experience. This project demonstrates basic web development skills while allowing users to explore color dynamics in a playful way.",
-        image: "chair.png",
+        desc: "The Magical Chair Color Changer is an interactive website where users can select colors to change the chair's appearance.",
+        image: ChairImg, // Use imported image
         live: false,
-        technologies: ["HTML","CSS"],
+        technologies: ["HTML", "CSS"],
         link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Modern%20Chair",
         github: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Modern%20Chair"
     },
     {
         title: "CodeX Code Editor",
-        desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, offering a seamless coding experience across all devices. It features syntax highlighting for popular programming languages, including HTML, CSS, JavaScript, Python, and Java. Users can create, edit, and save code files, with the option to download them as text files. CodeX combines robust functionality with a sleek, intuitive design, making coding effortless and enjoyable.",
-        image: "code.png",
+        desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, featuring syntax highlighting for popular programming languages.",
+        image: CodeImg, // Use imported image
         live: false,
-        technologies: ["HTML","CSS", "javascript",],
+        technologies: ["HTML", "CSS", "JavaScript"],
         link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Code-Editor",
         github: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Code-Editor"
     }
-]
+];
+
 
 const SkillInfo = [
     {
