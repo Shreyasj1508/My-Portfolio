@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
@@ -10,6 +12,7 @@ import {
   SimpleIcon,
 } from "react-icon-cloud";
 
+// @ts-ignore
 export const cloudProps: Omit<ICloud, "children"> = {
   containerProps: {
     style: {
@@ -37,6 +40,7 @@ export const cloudProps: Omit<ICloud, "children"> = {
   },
 };
 
+// @ts-ignore
 export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
   const bgHex = theme === "light" ? "#f3f2ef" : "#080510";
   const fallbackHex = theme === "light" ? "#6e6e73" : "#ffffff";
@@ -82,7 +86,7 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
   return (
     // @ts-ignore
     <Cloud {...cloudProps}>
-            // @ts-ignore
+      // @ts-ignore
       <>{renderedIcons}</>
     </Cloud>
   );

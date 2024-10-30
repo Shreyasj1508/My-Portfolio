@@ -28,13 +28,17 @@ import vscodeLogo from "../assets/Icons/VS Code.png";
 import postmanLogo from "../assets/Icons/Postman.png";
 import mongodbCompassLogo from "../assets/Icons/MongoDB Compass.png";
 import springToolLogo from "../assets/Icons/Spring Tool Suite.png";
-
+import mlogo from "../assets/Icons/mantine.png"
+import tlogo from "../assets/Icons/tabler.png"
+import plogo from "../assets/Icons/python.png"
 // Map skills to their corresponding logos
 const skillIcons: Record<string, string> = {
     HTML: htmlLogo,
     CSS: cssLogo,
     SASS: sassLogo,
     JavaScript: jsLogo,
+    "Mantine Dev" :mlogo ,
+    "Tabler IO":tlogo ,
     "React JS": reactLogo,
     Angular: angularLogo,
     Redux: reduxLogo,
@@ -51,6 +55,7 @@ const skillIcons: Record<string, string> = {
     C: cLogo,
     "C++": cppLogo,
     Java: javaLogo,
+    python:plogo,
     "Javascript": jsLogo,
     TypeScript: tsLogo,
     Git: gitLogo,

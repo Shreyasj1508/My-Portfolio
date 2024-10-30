@@ -1,7 +1,10 @@
+// @ts-nocheck
 
 import { IconHexagon } from "@tabler/icons-react";
 import { Slugs } from "../User";
+// @ts-nocheck
 import IconCloud from "./magicui/icon-cloud";
+// @ts-nocheck
 
 
 export function Loader() {

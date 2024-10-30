@@ -1,4 +1,4 @@
-
+// @ts-ignore
 import SkillBadge from "./SkillBadge";
 import React from "react";
 

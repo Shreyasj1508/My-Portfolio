@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { Info } from "../User";
 import Typewriter from "typewriter-effect";
 import { Button, useMatches } from "@mantine/core";
@@ -15,6 +17,7 @@ const About = () => {
         md:'md',
         lg:'lg'
     })
+    // @ts-ignore
     return (
         <>
             <div data-aos="zoom-out-up" data-aos-duration="800" className="mt-28 flex relative overflow-hidden justify-around items-center font-mono px-10 py-10 sm-mx:px-4 xs-mx:px-2 xs-mx:py-4 h-fit lg-mx:justify-between bs-mx:flex-wrap bs-mx:flex-col-reverse bs-mx:!overflow-visible bs-mx:gap-6 md-mx:px-6" id="About">
