@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://shreyasj1508.github.io/My-Portfolio",
+ "homepage": "/My-Portfolio/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
