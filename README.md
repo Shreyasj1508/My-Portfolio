@@ -59,7 +59,3 @@ If you'd like to connect or collaborate:
 📧 **Email:** shreyasjaiswal1515@gmail.com
 💼 **LinkedIn:** [Your LinkedIn](www.linkedin.com/in/shreyas-jaiswal1508)
 
----
-
-## 📄 License
-MIT License — Feel free to use and modify.
