@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.f87e854d.css",
+    "main.js": "/My-Portfolio/static/js/main.3d9c0495.js",
+    "static/media/pdf.worker.min.mjs": "/My-Portfolio/static/media/pdf.worker.min.a608559d76278146076e.mjs",
+    "static/media/Animated.png": "/My-Portfolio/static/media/Animated.4d4dba6fa347027b94d1.png",
+    "static/media/study.png": "/My-Portfolio/static/media/study.c3b030db5591e6baeccf.png",
+    "static/media/profile.png": "/My-Portfolio/static/media/profile.c20afdc41e32600c0cf3.png",
+    "static/media/enigma.jpg": "/My-Portfolio/static/media/enigma.ac0c39ed0fa478d1536f.jpg",
+    "static/media/chair.png": "/My-Portfolio/static/media/chair.4673b139d364959fcb68.png",
+    "static/media/GSAP.png": "/My-Portfolio/static/media/GSAP.dc93949e47633129f596.png",
+    "static/media/ManageMate.png": "/My-Portfolio/static/media/ManageMate.151c5e9c799249c58ecf.png",
+    "static/media/Spring Tool Suite.png": "/My-Portfolio/static/media/Spring Tool Suite.4f26ba0f1073b255a50c.png",
+    "static/media/Firebase.png": "/My-Portfolio/static/media/Firebase.537840208fe3abb15a4c.png",
+    "static/media/Java.png": "/My-Portfolio/static/media/Java.0f5085ef768f696676da.png",
+    "static/media/code.png": "/My-Portfolio/static/media/code.2ff4d7823a7847051b4d.png",
+    "static/media/sorting.png": "/My-Portfolio/static/media/sorting.56ca91a3fbb7fb24c748.png",
+    "static/media/C.png": "/My-Portfolio/static/media/C.8c9ebfca999db25aa7ba.png",
+    "static/media/Postman.png": "/My-Portfolio/static/media/Postman.6e5519744542e4cf94a3.png",
+    "static/media/VS Code.png": "/My-Portfolio/static/media/VS Code.ec0e2a1f0d2cde844adb.png",
+    "static/media/Express JS.png": "/My-Portfolio/static/media/Express JS.51c56d61fe7b2ccedeb2.png",
+    "static/media/C++.png": "/My-Portfolio/static/media/C++.e71fd381ff2117b50811.png",
+    "static/media/MySQL.png": "/My-Portfolio/static/media/MySQL.32d0719eb44b2226ac4c.png",
+    "static/media/MongoDB.png": "/My-Portfolio/static/media/MongoDB.e1afb73651b5a5c94406.png",
+    "static/media/MongoDB Compass.png": "/My-Portfolio/static/media/MongoDB Compass.aacbd2919f2b7caf902f.png",
+    "static/media/Github.png": "/My-Portfolio/static/media/Github.eba2ecb9e7675e26420d.png",
+    "static/media/Material UI.png": "/My-Portfolio/static/media/Material UI.14bf882ef750f3f35945.png",
+    "static/media/SASS.png": "/My-Portfolio/static/media/SASS.ab1f30eb8120111cf614.png",
+    "static/media/Redux.png": "/My-Portfolio/static/media/Redux.492ed7d54dd2352c5786.png",
+    "static/media/Springboot.png": "/My-Portfolio/static/media/Springboot.953ee24309fa38748981.png",
+    "static/media/gyandeep.jpg": "/My-Portfolio/static/media/gyandeep.25fcafd2c8e491f4b98c.jpg",
+    "static/media/TypeScript.png": "/My-Portfolio/static/media/TypeScript.5deb089e87ebcfae9c97.png",
+    "static/media/HTML.png": "/My-Portfolio/static/media/HTML.be50d4568ab0cb01edb8.png",
+    "static/media/Bootstrap.png": "/My-Portfolio/static/media/Bootstrap.5f221ec70518e4c64eaa.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.f87e854d.css.map": "/My-Portfolio/static/css/main.f87e854d.css.map",
+    "main.3d9c0495.js.map": "/My-Portfolio/static/js/main.3d9c0495.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f87e854d.css",
+    "static/js/main.3d9c0495.js"
+  ]
+}
