@@ -1,4 +1,4 @@
-import {IconBrandX,IconBadgeCc , IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
+import {IconBrandX,IconBadgeCc , IconBrandGithub, IconBrandLeetcode, IconBrandLinkedin } from "@tabler/icons-react";
 import abesImage from './assets/images/abes.jpg';
 import gyandeepImage from './assets/images/gyandeep.jpg';
 import enigmaImage from './assets/images/enigma.jpg';
