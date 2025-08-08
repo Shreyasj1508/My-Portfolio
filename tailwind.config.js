@@ -31,7 +31,6 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1536px',
 
-
       '2xl-mx': { 'max': '1535px' },
       'xl-mx': { 'max': '1279px' },
       'lg-mx': { 'max': '1023px' },
@@ -41,7 +40,6 @@ module.exports = {
       'xs-mx': { 'max': '475px' },
       'xsm-mx': { 'max': '349px' }
     }
-
   },
   plugins: [],
 }
