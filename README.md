@@ -1,30 +1,38 @@
 
-# my-portfolio
-Creating my first portfolio
-=======
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Portfolio
 
-## Available Scripts
+This is a personal portfolio website built with React, TypeScript, Tailwind CSS, and Mantine UI. It showcases my projects, experience, skills, and contact information.
 
-In the project directory, you can run:
+## 🚀 Features
+- Responsive design
+- Animated particle background
+- Project showcase with modals
+- Experience timeline
+- Skills and technology icons
+- Contact form
 
-### `npm start`
+## 🛠️ Tech Stack
+- React (Create React App)
+- TypeScript
+- Tailwind CSS
+- Mantine UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📦 Scripts
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- `npm start` — Run locally at [http://localhost:3000](http://localhost:3000)
+- `npm run build` — Build for production
+- `npm test` — Run tests
 
-### `npm test`
+## 🌐 Deployment (Vercel)
+1. Push your code to a GitHub repository.
+2. Go to [vercel.com](https://vercel.com) and sign in.
+3. Click "New Project" and import your repo.
+4. Vercel auto-detects Create React App:
+	- Build Command: `npm run build`
+	- Output Directory: `build`
+5. Click "Deploy" and get your live URL!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📄 License
+MIT
 
