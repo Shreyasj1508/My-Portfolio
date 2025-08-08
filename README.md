@@ -54,15 +54,10 @@ Optimized for best performance.
 
 ---
 
-## 📷 Preview
-![Portfolio Preview](https://your-screenshot-link.com)
-
----
-
 ## 📬 Contact
 If you'd like to connect or collaborate:  
-📧 **Email:** your-email@example.com  
-💼 **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)
+📧 **Email:** shreyasjaiswal1515@gmail.com
+💼 **LinkedIn:** [Your LinkedIn](www.linkedin.com/in/shreyas-jaiswal1508)
 
 ---
 
