@@ -5,14 +5,18 @@
 Welcome to my first personal portfolio project!  
 Built with **React** (via Create React App), this site showcases my skills, projects, and journey as a developer.  
 
-🌐 **Live Site:** [View My Portfolio](https://my-portfolio-teqw.onrender.com/)  
+
+🌐 **Live Site:** [https://my-portfolio-teqw.onrender.com/](https://my-portfolio-teqw.onrender.com/)
 
 ---
 
 ## 🚀 Getting Started
 >>>>>>> 3a5a3dfa502e2c57de39ed3dcd3273d006111071
 
+
 # My Portfolio
+
+Visit the live site here: [https://my-portfolio-teqw.onrender.com/](https://my-portfolio-teqw.onrender.com/)
 
 <<<<<<< HEAD
 This is a personal portfolio website built with React, TypeScript, Tailwind CSS, and Mantine UI. It showcases my projects, experience, skills, and contact information.
