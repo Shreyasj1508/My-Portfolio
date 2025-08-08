@@ -3,7 +3,7 @@
 Welcome to my first personal portfolio project!  
 Built with **React** (via Create React App), this site showcases my skills, projects, and journey as a developer.  
 
-🌐 **Live Site:** [View My Portfolio](https://your-vercel-or-netlify-link-here)  
+🌐 **Live Site:** [View My Portfolio]([https://your-vercel-or-netlify-link-here](https://my-portfolio-teqw.onrender.com/))  
 
 ---
 
