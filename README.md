@@ -1,94 +1,61 @@
 # 💼 My Portfolio
 
-<<<<<<< HEAD
-=======
-Welcome to my first personal portfolio project!  
-Built with **React** (via Create React App), this site showcases my skills, projects, and journey as a developer.  
+Welcome to my personal portfolio project!  
+Built with **React**, **TypeScript**, **Tailwind CSS**, and **Mantine UI**, this site showcases my projects, skills, and journey as a developer.  
 
-
-🌐 **Live Site:** [https://my-portfolio-teqw.onrender.com/](https://my-portfolio-teqw.onrender.com/)
+🌐 **Live Site:** [my-portfolio-teqw.onrender.com](https://my-portfolio-teqw.onrender.com/)
 
 ---
 
-## 🚀 Getting Started
->>>>>>> 3a5a3dfa502e2c57de39ed3dcd3273d006111071
-
-
-# My Portfolio
-
-Visit the live site here: [https://my-portfolio-teqw.onrender.com/](https://my-portfolio-teqw.onrender.com/)
-
-<<<<<<< HEAD
-This is a personal portfolio website built with React, TypeScript, Tailwind CSS, and Mantine UI. It showcases my projects, experience, skills, and contact information.
-=======
-### 📌 Available Scripts
->>>>>>> 3a5a3dfa502e2c57de39ed3dcd3273d006111071
-
 ## 🚀 Features
-- Responsive design
-- Animated particle background
-- Project showcase with modals
-- Experience timeline
-- Skills and technology icons
-- Contact form
-
-<<<<<<< HEAD
-## 🛠️ Tech Stack
-- React (Create React App)
-- TypeScript
-- Tailwind CSS
-- Mantine UI
-
-## 📦 Scripts
-
-- `npm start` — Run locally at [http://localhost:3000](http://localhost:3000)
-- `npm run build` — Build for production
-- `npm test` — Run tests
-
-## 🌐 Deployment (Vercel)
-1. Push your code to a GitHub repository.
-2. Go to [vercel.com](https://vercel.com) and sign in.
-3. Click "New Project" and import your repo.
-4. Vercel auto-detects Create React App:
-	- Build Command: `npm run build`
-	- Output Directory: `build`
-5. Click "Deploy" and get your live URL!
-
-## 📄 License
-MIT
-=======
-#### `npm start`
-Runs the app in development mode.  
-Open **[http://localhost:3000](http://localhost:3000)** to view it in your browser.  
-The page reloads automatically on changes and shows lint errors in the console.
-
-#### `npm test`
-Launches the test runner in interactive watch mode.  
-See more about [running tests](https://facebook.github.io/create-react-app/docs/running-tests).
-
-#### `npm run build`
-Builds the app for production in the `build` folder.  
-Bundles React in production mode and optimizes the build for best performance.
+- 🎯 **Responsive Design** — Looks great on all devices.
+- ✨ **Animated Particle Background** — Adds a dynamic, modern feel.
+- 📂 **Project Showcase with Modals** — Explore my work in detail.
+- 🗓 **Experience Timeline** — View my career journey visually.
+- 🛠 **Skills & Tech Icons** — See the tools I work with.
+- 📩 **Contact Form** — Reach out directly from the site.
 
 ---
 
 ## 🛠 Tech Stack
-- **React.js**
-- **JavaScript (ES6+)**
-- **HTML5 & CSS3**
-- **Create React App**
+- **React (Create React App)**
+- **TypeScript**
+- **Tailwind CSS**
+- **Mantine UI**
 
 ---
 
-## 📷 Preview
-![Portfolio Preview](https://your-screenshot-link.com)
->>>>>>> 3a5a3dfa502e2c57de39ed3dcd3273d006111071
+## 📦 Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+Runs the app in development mode.  
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.  
+The page will reload automatically on changes.
+
+### `npm test`
+Launches the test runner in interactive watch mode.
+
+### `npm run build`
+Builds the app for production in the `build` folder.  
+Optimized for best performance.
+
+---
+
+## 🌐 Deployment (Vercel)
+1. Push your code to a GitHub repository.
+2. Go to [vercel.com](https://vercel.com) and sign in.
+3. Click **"New Project"** and import your repo.
+4. Vercel auto-detects Create React App:
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `build`
+5. Click **Deploy** and get your live URL!
 
 ---
 
 ## 📬 Contact
-If you'd like to connect or collaborate, feel free to reach out!  
-📧 Email: your-email@example.com  
-💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+If you'd like to connect or collaborate:  
+📧 **Email:** shreyasjaiswal1515@gmail.com
+💼 **LinkedIn:** [Your LinkedIn](www.linkedin.com/in/shreyas-jaiswal1508)
 
----
