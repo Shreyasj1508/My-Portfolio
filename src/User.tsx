@@ -5,11 +5,11 @@ import enigmaImage from './assets/images/enigma.jpg';
 
 import ManageMateImg from './assets/ManageMate.png';
 import AnimatedImg from './assets/Animated.png';
-import StudyImg from './assets/study.png';
 import SortingImg from './assets/sorting.png';
 import ChairImg from './assets/chair.png';
 import CodeImg from './assets/code.png';
-
+import devtinder from './assets/Dev-Tinder.png';
+import quickbill from './assets/Quickbill.png';
 
 const Info = {
     name: "Shreyas Jaiswal",
@@ -17,6 +17,16 @@ const Info = {
     bio: "I’m a pre-final year engineering student with a passion for technology and its real-world impact. Currently, I’m focused on mastering Data Structures and Algorithms in C++, sharpening my Backend development skills,and exploring tech solutions that address real-life challenges.! "
 }
 const ProjectInfo = [
+     {
+        title: "DevTinder",
+        desc: "DevTinder is a modern developer networking platform inspired by Tinder, designed to help programmers connect, chat, and collaborate. It features a beautiful, responsive UI, real-time chat, and a seamless video call experience powered by WebRTC and Socket.io. Users can create rich profiles, showcase their skills, swipe to connect etc.",
+        image: devtinder, 
+        live: false,
+
+        technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "Socket.io", "WebRTC"],
+        link: "https://github.com/Shreyasj1508/DEV-TINDER-UI",
+        github: "https://github.com/Shreyasj1508/DEV-TINDER-UI"
+    },
     {
         title: "ManageMate - Empowering Your Workforce",
         desc: "This project is a task management dashboard built with React and Tailwind CSS, with data stored in localStorage for persistence.",
@@ -26,7 +36,17 @@ const ProjectInfo = [
         link: "https://github.com/Shreyasj1508/ManageMate",
         github: "https://github.com/Shreyasj1508/ManageMate/"
     },
+  
     {
+        title: "QuickBill Bill-Generator",
+        desc: "QuickBill Pro is a modern billing system that lets you create, save, and print invoices instantly with a beautiful, dynamic interface. Built using Node.js, Express, MongoDB, and EJS, it offers a seamless billing experience for small businesses.",
+        image: quickbill, 
+        live: true,
+        technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express"],
+        link: "https://quickbill-pro-bill-generator.onrender.com/",
+        github: "https://github.com/Shreyasj1508/QUICKBILL-PRO-BILL-GENERATOR?tab=readme-ov-file"
+    },
+      {
         title: "SwingScape: Sidcup Family Golf",
         desc: "Sidcup Family Golf is an animated website crafted with HTML, CSS, JavaScript, and GSAP to bring the excitement of golf to life online.",
         image: AnimatedImg, 
@@ -34,15 +54,6 @@ const ProjectInfo = [
         technologies: ["HTML", "Tailwind CSS", "JavaScript", "GSAP"],
         link: "https://github.com/Shreyasj1508/Animated-Website",
         github: "https://github.com/Shreyasj1508/Animated-Website"
-    },
-    {
-        title: "EduBridge - Bridging Knowledge Online",
-        desc: "EduBridge brings live, personalized online learning to you! Connect with expert teachers, improve skills, and explore new subjects—all from home.",
-        image: StudyImg, 
-        live: false,
-        technologies: ["HTML", "CSS"],
-        link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/StudySyn",
-        github: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/StudySyn"
     },
     {
         title: "Sorting Visualizer",
@@ -53,24 +64,7 @@ const ProjectInfo = [
         link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Sorting_Visualizer",
         github: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Sorting_Visualizer"
     },
-    {
-        title: "Magical Chair",
-        desc: "The Magical Chair Color Changer is an interactive website where users can select colors to change the chair's appearance.",
-        image: ChairImg, 
-        live: false,
-        technologies: ["HTML", "CSS"],
-        link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Modern%20Chair",
-        github: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Modern%20Chair"
-    },
-    {
-        title: "CodeX Code Editor",
-        desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, featuring syntax highlighting for popular programming languages.",
-        image: CodeImg, 
-        live: false,
-        technologies: ["HTML", "CSS", "JavaScript"],
-        link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Code-Editor",
-        github: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Code-Editor"
-    }
+   
 ];
 
  const SkillInfo = [
