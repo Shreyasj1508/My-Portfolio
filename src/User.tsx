@@ -11,8 +11,8 @@ import quickbill from './assets/Quickbill.png';
 
 const Info = {
     name: "Shreyas Jaiswal",
-    stack: ["Frontend Developer", "Competitive Programmer", "Freelancer"],
-    bio: "I’m a pre-final year engineering student with a passion for technology and its real-world impact. Currently, I’m focused on mastering Data Structures and Algorithms in C++, sharpening my Backend development skills,and exploring tech solutions that address real-life challenges.! "
+    stack: ["Full stack Developer", "Competitive Programmer", "Freelancer"],
+    bio: "Full Stack Developer and B.Tech Computer Science student specializing in web development, competitive programming, and scalable application design. Skilled in MERN stack (MongoDB, Express.js, React.js, Node.js), RESTful API development, real-time communication (WebRTC, Socket.IO), and Agile practices. Proven record of top coding contest achievements and 1000+ algorithmic problem solutions across global platforms."
 }
 const ProjectInfo = [
      {
@@ -68,7 +68,7 @@ const ProjectInfo = [
  const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "JavaScript", "React JS", "Redux", "Tailwind CSS", "GSAP", "Mantine Dev", "Tabler IO"]
+        skills: ["HTML", "CSS", "JavaScript", "React JS", "Redux", "Tailwind CSS", "GSAP", "Mantine Dev", "Tabler IO",]
     },
     {
         title: "Backend",
@@ -76,11 +76,11 @@ const ProjectInfo = [
     },
     {
         title: "Languages",
-        skills: ["C", "C++","python", "JavaScript", "TypeScript"]
+        skills: ["C", "C++","python", "JavaScript", "TypeScript","SQL"]
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code","Postman","MongoDB Compass"]
+        skills: ["Git", "Github", "VS Code","Postman","MongoDB Compass","vercel","render"]
     }
 ];
 
@@ -157,7 +157,7 @@ const LeadershipExperienceInfo = [
         date: "Aug 2025 - Sep 2025",
         desc: "•Developing a B2B web platform using the MERN stack (MongoDB, Express.js, React, Node.js).\n• Implementing features for user management, client onboarding, and secure data processing.\n• Optimizing application performance and scalability to support production-level workloads.\n• Building modular components for buyer, seller, and admin roles with role-based access control.",
         skills: ["React.js", "JavaScript", "Node.js","Express.js","MongoDB", "Teamwork", "UI/UX"],
-        logo: abesImage // Use abesImage as placeholder for AlmaMate
+        logo: abesImage 
     },
     {
         role: "Technical Team Lead",
