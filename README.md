@@ -3,7 +3,7 @@
 Welcome to my personal portfolio project!  
 Built with **React**, **TypeScript**, **Tailwind CSS**, and **Mantine UI**, this site showcases my projects, skills, and journey as a developer.  
 
-🌐 **Live Site:** [my-portfolio-teqw.onrender.com](https://my-portfolio-teqw.onrender.com/)
+🌐 **Live Site:** [my-portfolio-teqw.onrender.com](https://my-portfolio-1-fjo0.onrender.com/)
 
 ---
 
@@ -22,36 +22,7 @@ Built with **React**, **TypeScript**, **Tailwind CSS**, and **Mantine UI**, this
 - **TypeScript**
 - **Tailwind CSS**
 - **Mantine UI**
-
----
-
-## 📦 Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-Runs the app in development mode.  
-Open **[http://localhost:3000](http://localhost:3000)** in your browser.  
-The page will reload automatically on changes.
-
-### `npm test`
-Launches the test runner in interactive watch mode.
-
-### `npm run build`
-Builds the app for production in the `build` folder.  
-Optimized for best performance.
-
----
-
-## 🌐 Deployment (Vercel)
-1. Push your code to a GitHub repository.
-2. Go to [vercel.com](https://vercel.com) and sign in.
-3. Click **"New Project"** and import your repo.
-4. Vercel auto-detects Create React App:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `build`
-5. Click **Deploy** and get your live URL!
-
+  
 ---
 
 ## 📬 Contact
