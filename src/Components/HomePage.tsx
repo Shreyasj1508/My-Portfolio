@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import About from "./About";
-import Experience from './Experience';
+import Education from './Experience';
+import LeadershipExperience from './LeadershipExperience';
 import Contact from './Contact';
 import Footer from './Footer';
 
@@ -25,10 +26,11 @@ const HomePage = () => {
         <Header />
         <About />
         <Projects />
-        <Skills />
-        <Experience />
-        <Contact />
-        <Footer/>
+    <Skills />
+    <Education />
+    <LeadershipExperience />
+    <Contact />
+    <Footer/>
         <Mail />
         <Social />
         </>:

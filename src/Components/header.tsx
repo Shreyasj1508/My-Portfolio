@@ -4,13 +4,16 @@ import { useMediaQuery } from "@mantine/hooks";
 import { em } from "@mantine/core";
 import { useEffect, useState } from "react";
 
-const links=["About","Projects","Skills","Experience","Contact"];
+const links=["About","Projects","Skills","Education / Experience","Contact"];
 const navLinks=(col:Boolean, clicked:any)=>{
     const handleClick=()=>{
         if(clicked)clicked();
     }
     return links.map((link, index)=>{
-        return  <a key={index} onClick={handleClick} className={`${col?'flex flex-col items-center':''} text-textColor text-lg font-mono hover:text-primaryColor`} href={`#${link}`}><span className="text-primaryColor">0{index+1}. </span>{link}</a>
+        let sectionId = link;
+        // For Education / Experience, use Experience as id
+        if(link === "Education / Experience") sectionId = "Experience";
+        return  <a key={index} onClick={handleClick} className={`${col?'flex flex-col items-center':''} text-textColor text-lg font-mono hover:text-primaryColor`} href={`#${sectionId}`}><span className="text-primaryColor">0{index+1}. </span>{link}</a>
     })
 }
 

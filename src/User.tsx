@@ -6,8 +6,6 @@ import enigmaImage from './assets/images/enigma.jpg';
 import ManageMateImg from './assets/ManageMate.png';
 import AnimatedImg from './assets/Animated.png';
 import SortingImg from './assets/sorting.png';
-import ChairImg from './assets/chair.png';
-import CodeImg from './assets/code.png';
 import devtinder from './assets/Dev-Tinder.png';
 import quickbill from './assets/Quickbill.png';
 
@@ -92,23 +90,13 @@ const socialLinks = [
     { link: "https://leetcode.com/u/shreyas1508_/", icon: IconBrandLeetcode },
     { link: "https://www.codechef.com/users/shreyas1508", icon: IconBadgeCc  },
     { link: "https://x.com/Shreyas1508_", icon: IconBrandX  }
-
+     
 ];
 
 
 const ExperienceInfo = [
-    {
-        role: "Gyandeep English School",
-        company: "Student",
-        image: gyandeepImage,
-        date: "Apr 2007 - Aug 2021",
-        desc: "Completed primary and secondary education, focusing on English language skills.",
-        skills: ["English Language", "Communication", "Teamwork"],
-  
-       
-    },
-    {
-      
+
+     {
         role: "ABES Engineering College",
         company: "Student",
         image: abesImage,
@@ -118,43 +106,18 @@ const ExperienceInfo = [
  
     },
     {
-        role: "Technical Team Member",
-        company: "Enigma Programming Club",
-        image: enigmaImage,
-        date: "Dec 2023 - Present",
-        desc: "Contributing to technical projects and team collaborations.",
-        skills: ["Team Leadership", "Competitive Programming", "Frontend Development"],
-   
+        role: "Gyandeep English School",
+        company: "Student",
+        image: gyandeepImage,
+        date: "Apr 2007 - Aug 2021",
+        desc: "Completed primary and secondary education, focusing on English language skills.",
+        skills: ["English Language", "Communication", "Teamwork"],
+  
+       
     }
 ];
 
 
-// const ExperienceInfo = [
-//     {
-//         role: "Student",
-//         company: "Gyandeep English School",
-//         logo: require('./assets/images/gyandeep.jpg'),
-//         date: "Apr 2007 - Aug 2021",
-//         desc: "Completed primary and secondary education, focusing on English language skills.",
-//         skills: ["English Language", "Communication", "Teamwork"],
-//     },
-//     {
-//         role: "Student",
-//         company: "ABES Engineering College",
-//         logo: require('./assets/images/abes.jpg'),
-//         date: "Nov 2022 - Present",
-//         desc: "Pursuing a degree in Computer Science, gaining knowledge in programming and engineering principles.",
-//         skills: ["Programming", "Problem Solving", "Collaboration", "Communication", "Leadership", "Time Management"],
-//     },
-//     {
-//         role: "Technical Team Member",
-//         company: "Enigma Programming Club",
-//         logo: require('./assets/images/enigma.jpg'),
-//         date: "Dec 2023 - Present",
-//         desc: "Contributing to technical projects and team collaborations.",
-//         skills: ["Team Leadership", "Competitive Programming", "Frontend Development"],
-//     },
-// ];
 
 
 const Slugs = [
@@ -187,4 +150,23 @@ const Slugs = [
     "androidstudio",
     "figma",
 ];
-export { Info, ProjectInfo, socialLinks, SkillInfo, ExperienceInfo, Slugs };
+const LeadershipExperienceInfo = [
+    {
+        role: "Full stack developer Intern",
+        company: "AlmaMate",
+        date: "Aug 2025 - Sep 2025",
+        desc: "•Developing a B2B web platform using the MERN stack (MongoDB, Express.js, React, Node.js).\n• Implementing features for user management, client onboarding, and secure data processing.\n• Optimizing application performance and scalability to support production-level workloads.\n• Building modular components for buyer, seller, and admin roles with role-based access control.",
+        skills: ["React.js", "JavaScript", "Node.js","Express.js","MongoDB", "Teamwork", "UI/UX"],
+        logo: abesImage // Use abesImage as placeholder for AlmaMate
+    },
+    {
+        role: "Technical Team Lead",
+        company: "Enigma Programming Club",
+        date: "Dec 2023 - Present",
+        desc: "• Organized and led coding events, hackathons, and technical workshops for club members.\n• Mentored junior members in competitive programming and web development.\n• Contributed to club projects and collaborated with peers to solve real-world problems.",
+        skills: ["Team Leadership", "Competitive Programming", "Frontend Development", "Mentoring", "Event Organization"],
+        logo: enigmaImage
+    },
+];
+
+export { Info, ProjectInfo, socialLinks, SkillInfo, ExperienceInfo, LeadershipExperienceInfo, Slugs };
