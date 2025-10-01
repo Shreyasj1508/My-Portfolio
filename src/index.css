@@ -11,7 +11,7 @@
 /* Dark Theme (Default) */
 [data-theme="dark"] {
   --bg-color: #112240;
-  --primary-color: #64FFDA;
+  --primary-color: #00D4AA;
   --text-color: #8892B0;
   --text-primary: #CCD6F6;
   --text-secondary: #8892B0;
@@ -24,7 +24,7 @@
 /* Light Theme - Dark Mode Inspired */
 [data-theme="light"] {
   --bg-color: #f1f5f9;
-  --primary-color: #06b6d4;
+  --primary-color: #1e293b;
   --text-color: #475569;
   --text-primary: #1e293b;
   --text-secondary: #64748b;
