@@ -2,24 +2,116 @@
 @tailwind components;
 @tailwind utilities;
 
- html{
-    --primary-color:"#64FFDA";
-    scroll-behavior: smooth;
- }
+/* CSS Variables for Light and Dark Themes */
+:root {
+  --primary-color: #64FFDA;
+  scroll-behavior: smooth;
+}
+
+/* Dark Theme (Default) */
+[data-theme="dark"] {
+  --bg-color: #112240;
+  --primary-color: #64FFDA;
+  --text-color: #8892B0;
+  --text-primary: #CCD6F6;
+  --text-secondary: #8892B0;
+  --border-color: #233554;
+  --shadow-color: rgba(2, 12, 27, 0.7);
+  --card-bg: #1e2a4a;
+  --hover-bg: #233554;
+}
+
+/* Light Theme - Dark Mode Inspired */
+[data-theme="light"] {
+  --bg-color: #f1f5f9;
+  --primary-color: #06b6d4;
+  --text-color: #475569;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --border-color: #cbd5e1;
+  --shadow-color: rgba(30, 41, 59, 0.2);
+  --card-bg: #ffffff;
+  --hover-bg: #e2e8f0;
+}
+
+html {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Enhanced text readability for light mode */
+[data-theme="light"] .text-textPrimary {
+  color: #1e293b !important;
+  font-weight: 600;
+}
+
+[data-theme="light"] .text-textColor {
+  color: #475569 !important;
+}
+
+[data-theme="light"] .text-primaryColor {
+  color: #06b6d4 !important;
+  font-weight: 500;
+}
+
+/* Dark mode text styles */
+[data-theme="dark"] .text-textPrimary {
+  color: #CCD6F6 !important;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .text-textColor {
+  color: #8892B0 !important;
+}
+
+[data-theme="dark"] .text-primaryColor {
+  color: #64FFDA !important;
+  font-weight: 500;
+}
+
+/* Ensure dark mode headings are visible */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+  color: #CCD6F6 !important;
+}
+
+/* Dark mode specific overrides for better visibility */
+[data-theme="dark"] .text-white {
+  color: #CCD6F6 !important;
+}
+
+/* Additional dark mode enhancements */
+[data-theme="dark"] {
+  --text-contrast: #E2E8F0;
+  --text-muted: #94A3B8;
+}
+
+[data-theme="dark"] .text-contrast {
+  color: var(--text-contrast) !important;
+}
+
+[data-theme="dark"] .text-muted {
+  color: var(--text-muted) !important;
+}
  ::-webkit-scrollbar-track
  {
    border-radius: 10px;
-   background-color: #112240;
+   background-color: var(--bg-color);
  }
  
 ::-webkit-scrollbar
  {
    width: 4px;
-   background-color: #112240;
+   background-color: var(--bg-color);
  }
  
  ::-webkit-scrollbar-thumb
  {
    border-radius: 10px;
-   background-color: #64FFDA;
+   background-color: var(--primary-color);
  }

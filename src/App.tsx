@@ -2,6 +2,7 @@ import "@mantine/core/styles.css";
 import './App.css';
 import HomePage from './Components/HomePage';
 import { MantineProvider, createTheme } from '@mantine/core';
+import { ThemeProvider } from './contexts/ThemeContext';
 //import { pdfjs } from 'react-pdf';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -34,9 +35,11 @@ function App() {
     },
   });
   return (
-    <MantineProvider theme={theme} >
-    <HomePage/>
-    </MantineProvider>
+    <ThemeProvider>
+      <MantineProvider theme={theme} >
+        <HomePage/>
+      </MantineProvider>
+    </ThemeProvider>
   );
 }
 

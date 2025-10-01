@@ -80,7 +80,7 @@ const ProjectInfo = [
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code","Postman","MongoDB Compass","vercel","render"]
+        skills: ["Git", "Github", "VS Code","Postman","MongoDB Compass","Vercel","Render"]
     }
 ];
 

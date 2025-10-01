@@ -31,6 +31,8 @@ import springToolLogo from "../assets/Icons/Spring Tool Suite.png";
 import mlogo from "../assets/Icons/mantine.png"
 import tlogo from "../assets/Icons/tabler.png"
 import plogo from "../assets/Icons/python.png"
+import vercelLogo from "../assets/Icons/Vercel.png";
+import renderLogo from "../assets/Icons/Render.png";
 // Map skills to their corresponding logos
 const skillIcons: Record<string, string> = {
     HTML: htmlLogo,
@@ -64,6 +66,8 @@ const skillIcons: Record<string, string> = {
     Postman: postmanLogo,
     "MongoDB Compass": mongodbCompassLogo,
     "Spring Tool Suite": springToolLogo,
+    Vercel: vercelLogo,
+    Render: renderLogo,
 };
 
 const SkillBadge = ({ skills }: { skills: string[] }) => {

@@ -8,12 +8,12 @@ const FullProjectModal = (props: any) => {
         <Modal.Overlay className="!backdrop-opacity-85 blur-sm" />
         <Modal.Content className="!rounded-3xl">
             <Modal.Header className="!bg-bgColor xs-mx:!p-2  !border-primaryColor  !border-2 !border-b-0 !rounded-tl-3xl !rounded-tr-3xl">
-                <Modal.Title data-autofocus className="!text-4xl sm-mx:!text-3xl xs-mx:!text-2xl xsm-mx:!text-xl text-white flex gap-3 xs-mx:gap-1 items-center !font-bold">{props.title}{props.live === true && <Badge className="flex items-center gap-1" size={download} variant="outline" color="red" rightSection={<Indicator color="red" position="middle-end" size={10} processing></Indicator>} >Live</Badge>}</Modal.Title>
+                <Modal.Title data-autofocus className="!text-4xl sm-mx:!text-3xl xs-mx:!text-2xl xsm-mx:!text-xl text-textPrimary flex gap-3 xs-mx:gap-1 items-center !font-bold">{props.title}{props.live === true && <Badge className="flex items-center gap-1" size={download} variant="outline" color="red" rightSection={<Indicator color="red" position="middle-end" size={10} processing></Indicator>} >Live</Badge>}</Modal.Title>
                 <Modal.CloseButton size="md" iconSize="30px" className="!bg-bgColor !text-red-500" />
             </Modal.Header>
             <Modal.Body className="!bg-bgColor xs-mx:!p-2 !pt-2 !border-primaryColor  !border-2 !border-t-0 !rounded-bl-3xl !rounded-br-3xl">
                 <Image
-                    className="!rounded-xl !shadow-[0_0_5px_0_#64FFDA]"
+                    className="!rounded-xl !shadow-[0_0_5px_0_var(--primary-color)]"
                     src={props.image}
                     alt={props.image}
                 />

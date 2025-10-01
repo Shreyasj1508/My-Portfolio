@@ -13,14 +13,14 @@ const SideBar=()=> {
     <>
       <Drawer.Root  className='bs:hidden !-z-10'  position='right' opened={opened}   onClose={toggle} size="55vw" >
         <Drawer.Overlay className='!-z-0 !backdrop-opacity-85 blur-sm' />
-        <Drawer.Content className='!-z-0' bg="#112240">
-          <Drawer.Body className='mt-20 xs:mt-24  flex flex-col gap-5' bg="#112240">
+        <Drawer.Content className='!-z-0 !bg-bgColor'>
+          <Drawer.Body className='mt-20 xs:mt-24  flex flex-col gap-5 !bg-bgColor'>
             {navLinks(true, toggle)}
           </Drawer.Body>
         </Drawer.Content>
       </Drawer.Root>
 
-      <Burger className='bs:!hidden !z-50 relative' size={size} color='#64FFDA' opened={opened} onClick={toggle}  />
+      <Burger className='bs:!hidden !z-50 relative text-primaryColor' size={size} opened={opened} onClick={toggle}  />
     </>
   );
 }

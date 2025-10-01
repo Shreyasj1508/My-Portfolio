@@ -9,7 +9,7 @@ const FloatingInput = (props: any) => {
                         id={props.id}
                         value={props.value}
                         onChange={(e) => props.handleChange(props.id, e.target.value)}
-                        className={`block px-2.5 pb-2.5 pt-4 w-full text-xl sm-mx:text-lg xs-mx:text-base sm-mx:pb-1 sm-mx:pt-2 rounded-xl text-white bg-transparent border  border-textColor appearance-none hover:shadow-[0_0_8px_0_#64FFDA70] focus:shadow-[0_0_8px_0_#64FFDA70] focus:outline-none ${props.error ? "border-red-500" : ""} focus:ring-0 focus:border-primaryColor peer`}
+                        className={`block px-2.5 pb-2.5 pt-4 w-full text-xl sm-mx:text-lg xs-mx:text-base sm-mx:pb-1 sm-mx:pt-2 rounded-xl text-textPrimary bg-transparent border  border-textColor appearance-none hover:shadow-[0_0_8px_0_var(--primary-color)] focus:shadow-[0_0_8px_0_var(--primary-color)] focus:outline-none ${props.error ? "border-red-500" : ""} focus:ring-0 focus:border-primaryColor peer`}
                         placeholder=""
                     />
                 ) : (
@@ -19,7 +19,7 @@ const FloatingInput = (props: any) => {
                         id={props.id}
                         onChange={(e) => props.handleChange(props.id, e.target.value)}
                         rows={4}
-                        className={`block px-2.5 pb-2.5 xs-mx:text-base pt-4 w-full text-xl sm-mx:text-lg rounded-xl text-white bg-transparent border border-textColor  ${props.error ? "border-red-500" : ""} appearance-none hover:shadow-[0_0_8px_0_#64FFDA70] focus:shadow-[0_0_8px_0_#64FFDA70] focus:outline-none focus:ring-0 focus:border-primaryColor peer`}
+                        className={`block px-2.5 pb-2.5 xs-mx:text-base pt-4 w-full text-xl sm-mx:text-lg rounded-xl text-textPrimary bg-transparent border border-textColor  ${props.error ? "border-red-500" : ""} appearance-none hover:shadow-[0_0_8px_0_var(--primary-color)] focus:shadow-[0_0_8px_0_var(--primary-color)] focus:outline-none focus:ring-0 focus:border-primaryColor peer`}
                         placeholder=""
                     ></textarea>
                 )}

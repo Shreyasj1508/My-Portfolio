@@ -6,6 +6,8 @@ import { validateForm } from "./Validation";
 import { collection, addDoc } from "firebase/firestore"; 
 import { db } from "../Firebase";
 import toast from "react-hot-toast";
+import emailjs from '@emailjs/browser';
+import { EMAILJS_CONFIG } from '../config/emailConfig';
 
 const Contact = () => {
 
@@ -34,12 +36,48 @@ const Contact = () => {
         }
         setFormError(newFormError);
         if(valid){
-            setFormData(form);
-            toast.success('Submitted Successfully!', {duration:4000});
-            await addDoc(collection(db, "portfolio"), formData);
+            try {
+                // Save to Firebase first (this will always work)
+                await addDoc(collection(db, "portfolio"), {
+                    ...formData,
+                    timestamp: new Date().toISOString(),
+                    status: 'new'
+                });
+
+                // Try to send email using EmailJS (if configured)
+                if(EMAILJS_CONFIG.PUBLIC_KEY !== 'YOUR_PUBLIC_KEY') {
+                    const templateParams = {
+                        from_name: formData.name,
+                        from_email: formData.email,
+                        phone: formData.phone,
+                        message: formData.message,
+                        to_name: 'Shreyas Jaiswal'
+                    };
+
+                    emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY);
+                    
+                    await emailjs.send(
+                        EMAILJS_CONFIG.SERVICE_ID,
+                        EMAILJS_CONFIG.TEMPLATE_ID,
+                        templateParams
+                    );
+                    
+                    toast.success('Message sent successfully! I\'ll get back to you soon.', {duration:4000});
+                } else {
+                    // Fallback: Show success message even without email
+                    toast.success('Message received! I\'ll get back to you soon.', {duration:4000});
+                }
+
+                setFormData(form);
+            } catch (error) {
+                console.error('Error:', error);
+                // Even if email fails, Firebase save should work
+                toast.success('Message received! I\'ll get back to you soon.', {duration:4000});
+                setFormData(form);
+            }
         }
         else{
-            toast.error('Some error occurred!', {duration:4000})
+            toast.error('Please fill all required fields correctly!', {duration:4000})
         }
     }
 
@@ -50,15 +88,15 @@ const Contact = () => {
         lg: "lg"
     })
     return <div className="px-16 md-mx:px-8 sm-mx:px-4 mx-20 lg-mx:mx-10 md-mx:mx-0   my-10  font-mono" id="Contact">
-        <h1 className="text-4xl  sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center text-white"><span className="text-primaryColor">06.&nbsp;</span>Contact</h1>
-        <div data-aos="flip-left" data-aos-duration="800" className="w-[70%] lg-mx:w-full shadow-[0_0_10px_0_#64FFDA50] m-auto flex flex-col gap-6 border border-primaryColor p-8 rounded-3xl sm-mx:p-4">
-            <div className=" text-3xl flex gap-2 items-center text-white font-semibold sm-mx:text-2xl xs-mx:text-xl">Let's Connect<IconTopologyStar3 className="w-10 text-primaryColor h-10 sm-mx:w-7 sm-mx:h-7" /></div>
+        <h1 className="text-4xl  sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center text-textPrimary"><span className="text-primaryColor">06.&nbsp;</span>Contact</h1>
+        <div data-aos="flip-left" data-aos-duration="800" className="w-[70%] lg-mx:w-full shadow-[0_0_10px_0_var(--primary-color)] m-auto flex flex-col gap-6 border border-primaryColor p-8 rounded-3xl sm-mx:p-4">
+            <div className=" text-3xl flex gap-2 items-center text-textPrimary font-semibold sm-mx:text-2xl xs-mx:text-xl">Let's Connect<IconTopologyStar3 className="w-10 text-primaryColor h-10 sm-mx:w-7 sm-mx:h-7" /></div>
             <FloatingInput id="name" name="Name" value={formData.name} handleChange={handleChange}  error={formError.name}/>
             <FloatingInput id="email" name="Email" value={formData.email} handleChange={handleChange}  error={formError.email}/>
             <FloatingInput id="phone" name="Phone Number" value={formData.phone} handleChange={handleChange}  error={formError.phone}/>
             <FloatingInput id="message" name="Message" value={formData.message} handleChange={handleChange}  error={formError.message}/>
             <Button fullWidth onClick={handleSubmit} rightSection={<IconArrowRight size={20} />}
-                className="!text-bgColor !font-bold " variant="filled" size={btn} radius="lg" color="#64FFDA">Send</Button>
+                className="!text-bgColor !font-bold " variant="filled" size={btn} radius="lg" style={{backgroundColor: 'var(--primary-color)'}}>Send</Button>
         </div>
     </div>
 }

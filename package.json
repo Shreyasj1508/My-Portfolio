@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
- "homepage": "/",
+  "homepage": "/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
@@ -43,6 +43,7 @@
     "ts-jest": "^29.2.5"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@mantine/core": "^7.13.2",
     "@mantine/form": "^7.13.2",
     "@mantine/hooks": "^7.13.2",

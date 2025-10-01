@@ -7,9 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bgColor: "#112240",
-        primaryColor: "#64FFDA",
-        textColor: "#8892B0"
+        bgColor: "var(--bg-color)",
+        primaryColor: "var(--primary-color)",
+        textColor: "var(--text-color)",
+        textPrimary: "var(--text-primary)",
+        textSecondary: "var(--text-secondary)",
+        borderColor: "var(--border-color)",
+        cardBg: "var(--card-bg)",
+        hoverBg: "var(--hover-bg)"
       },
       animation: {
         backgroundPositionSpin:
