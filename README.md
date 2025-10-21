@@ -3,7 +3,7 @@
 Welcome to my personal portfolio project!  
 Built with **React**, **TypeScript**, **Tailwind CSS**, and **Mantine UI**, this site showcases my projects, skills, and journey as a developer.  
 
-🌐 **Live Site:** [my-portfolio-teqw.onrender.com](https://shreyas-portfolio-8e5c.onrender.com/)
+🌐 **Live Site:** [https://shreyas-portfolio-8e5c.onrender.com/](https://shreyas-portfolio-8e5c.onrender.com/)
 
 ---
 
