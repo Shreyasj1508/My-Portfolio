@@ -2,7 +2,7 @@ import {IconBrandX,IconBadgeCc , IconBrandGithub, IconBrandLeetcode, IconBrandLi
 import abesImage from './assets/images/abes.jpg';
 import gyandeepImage from './assets/images/gyandeep.jpg';
 import enigmaImage from './assets/images/enigma.jpg';
-
+import buildbasket from './assets/BUILDBASKET.png';
 import ManageMateImg from './assets/ManageMate.png';
 import AnimatedImg from './assets/Animated.png';
 import SortingImg from './assets/sorting.png';
@@ -25,6 +25,21 @@ const ProjectInfo = [
         link: "https://github.com/Shreyasj1508/DEV-TINDER-UI",
         github: "https://github.com/Shreyasj1508/DEV-TINDER-UI"
     },
+    {
+        title: "BuildBasket",
+        desc: "Built a B2B marketplace using the MERN stack with a 3-tier architecture and 15+ optimized MongoDB models, featuring Stripe, COD, and SG Finserv credit integrations, real-time GST calculation, and Socket.io chat with ApexCharts analytics. Developed a seller-buyer-admin system with JWT authentication, role-based access, regional pricing, and Excel reporting, along with Cloudinary file management, automated emails, commission management, and price tracking.",
+           image: buildbasket, 
+        live: false,
+
+        technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "Socket.io", "WebRTC"],
+        link: "https://github.com/Shreyasj1508/DEV-TINDER-UI",
+        github: "https://github.com/Shreyasj1508/BuildBasket"
+    },
+
+
+
+
+
     {
         title: "ManageMate - Empowering Your Workforce",
         desc: "This project is a task management dashboard built with React and Tailwind CSS, with data stored in localStorage for persistence.",
