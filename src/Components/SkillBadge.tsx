@@ -87,7 +87,7 @@ const SkillBadge = ({ skills }: { skills: string[] }) => {
                             e.currentTarget.style.display = 'none';
                         }}
                     />
-                    <div className="text-textColor text-3xl xs:text-lg font-medium">
+                    <div className="text-textColor text-3xl xs:text-base font-medium">
                         {skill}
                     </div>
                 </div>
