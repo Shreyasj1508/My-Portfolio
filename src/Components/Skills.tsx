@@ -8,7 +8,7 @@ const Skills = () => {
             <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl mb-10 font-bold text-center text-textPrimary">
                 <span className="text-primaryColor">03.&nbsp;</span>Skills
             </h1>
-            <div className="flex flex-wrap justify-around md-mx:justify-between sm-mx:justify-center gap-4 md-mx:gap-2">
+            <div className="flex flex-wrap justify-around md-mx:justify-between sm-mx:justify-center xs:justify-center gap-4 md-mx:gap-2 xs:gap-3">
                 {
                     SkillInfo.map((skill, index) => (
                         <SkillCard key={index} title={skill.title} skills={skill.skills} />

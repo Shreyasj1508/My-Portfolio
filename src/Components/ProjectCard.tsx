@@ -4,12 +4,12 @@ import FullProjectModal from "./FullProjectModal";
 const ProjectCard = (props: any) => {
     const [opened, { open, close }] = useDisclosure(false);
     const badge=useMatches({
-        xsm:"sm", md:"md", lg:"lg"
+        xs:"xs", xsm:"sm", md:"md", lg:"lg"
     });
-    return <div className="w-[32%] lg-mx:w-[46%] md-mx:w-[48%] sm-mx:w-[90%] xs-mx:w-full" data-aos="fade-up" data-aos-duration="800"><Card onClick={open}  className="!bg-bgColor cursor-pointer transition-transform duration-300 ease-in-out hover:!scale-[1.02] mb-5 hover:!shadow-[0_0_10px_1px_var(--primary-color)] xs-mx:!shadow-[0_0_10px_1px_var(--primary-color)] !border-primaryColor border-2 min-h-[400px] flex flex-col"  shadow="lg" padding="sm" radius="lg" withBorder>
-        <Card.Section className="p-3">
+    return <div className="w-[32%] lg-mx:w-[46%] md-mx:w-[48%] sm-mx:w-[90%] xs-mx:w-full" data-aos="fade-up" data-aos-duration="800"><Card onClick={open}  className="!bg-bgColor cursor-pointer transition-transform duration-300 ease-in-out hover:!scale-[1.02] mb-5 hover:!shadow-[0_0_10px_1px_var(--primary-color)] xs-mx:!shadow-[0_0_10px_1px_var(--primary-color)] !border-primaryColor border-2 h-[500px] flex flex-col"  shadow="lg" padding="sm" radius="lg" withBorder>
+        <Card.Section className="p-3 h-[200px] flex items-center justify-center">
             <Image
-                className="!rounded-xl !shadow-[0_0_5px_0_var(--primary-color)]"
+                className="!rounded-xl !shadow-[0_0_5px_0_var(--primary-color)] max-h-full object-cover"
                 src={props.image}
                 alt={props.image}
             />
@@ -19,10 +19,10 @@ const ProjectCard = (props: any) => {
             <div className="!text-2xl gap-2 !font-bold !text-textPrimary flex items-center sm-mx:!text-xl" >{props.title}{props.live === true && <Badge className="!px-1" variant="outline" color="red" rightSection={<Indicator className="!mr-0.5 !z-0" color="red" position="middle-end" size={7} processing></Indicator>} >Live</Badge>}</div>
 
         </Group>
-        <Group mb="sm" className="!gap-2">
-            {props.technologies.map((tech: string, index: number) => index < 3 && <Badge key={index} size={badge} variant="light" color="#64FFDA">{tech}</Badge>)}
+        <Group mb="sm" className="!gap-2 flex-wrap h-[60px] overflow-hidden">
+            {props.technologies.map((tech: string, index: number) => <Badge key={index} size={badge} variant="light" color="#64FFDA">{tech}</Badge>)}
         </Group>
-        <Text className="!text-justify !text-sm xs-mx:!text-xs flex-grow" lineClamp={5} size="sm" c="dimmed">
+        <Text className="!text-justify !text-sm xs-mx:!text-xs h-[120px] overflow-hidden" lineClamp={5} size="sm" c="dimmed">
             {props.desc}
         </Text>
 

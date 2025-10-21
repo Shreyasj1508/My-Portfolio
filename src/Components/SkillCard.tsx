@@ -13,9 +13,9 @@ const SkillCard: React.FC<SkillCardProps> = ({ title, skills }) => {
             data-aos="fade-up"
             data-aos-duration="800"
             data-aos-easing="ease-in-sine"
-            className="w-[47%] shadow-[0_0_10px_0_var(--primary-color)] rounded-3xl mb-3 border border-primaryColor p-5"
+            className="w-[47%] sm:w-[45%] xs:w-[90%] shadow-[0_0_10px_0_var(--primary-color)] rounded-3xl mb-3 border border-primaryColor p-5"
         >
-            <div className="text-3xl mb-4 text-textPrimary text-center font-bold">
+            <div className="text-3xl xs:text-xl mb-4 text-textPrimary text-center font-bold">
                 {title}
             </div>
             <div className="flex flex-wrap justify-center gap-3">

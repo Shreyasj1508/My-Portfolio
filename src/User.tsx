@@ -36,10 +36,6 @@ const ProjectInfo = [
         github: "https://github.com/Shreyasj1508/BuildBasket"
     },
 
-
-
-
-
     {
         title: "ManageMate - Empowering Your Workforce",
         desc: "This project is a task management dashboard built with React and Tailwind CSS, with data stored in localStorage for persistence.",
@@ -137,6 +133,7 @@ const ExperienceInfo = [
 
 const Slugs = [
     "typescript",
+    "render",
     "spring",
     "javascript",
     "dart",

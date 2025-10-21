@@ -31,8 +31,8 @@ import springToolLogo from "../assets/Icons/Spring Tool Suite.png";
 import mlogo from "../assets/Icons/mantine.png"
 import tlogo from "../assets/Icons/tabler.png"
 import plogo from "../assets/Icons/python.png"
-import vercelLogo from "../assets/Icons/Vercel.png";
-import renderLogo from "../assets/Icons/Render.png";
+import vercelLogo from "../assets/Icons/Vercel.svg";
+import renderLogo from "../assets/Icons/Render.svg";
 // Map skills to their corresponding logos
 const skillIcons: Record<string, string> = {
     HTML: htmlLogo,
@@ -76,14 +76,18 @@ const SkillBadge = ({ skills }: { skills: string[] }) => {
             {skills.map((skill, index) => (
                 <div
                     key={index}
-                    className="flex gap-2 border border-textColor rounded-2xl items-center py-2 px-3 mb-1"
+                    className="flex gap-2 border border-textColor rounded-2xl items-center py-2 px-3 mb-1 xs:py-1 xs:px-1 xs:gap-1"
                 >
                     <img
-                        className="w-[48px] !p-1"
-                        src={skillIcons[skill]}
+                        className="w-[48px] xs:w-[24px] !p-1 xs:!p-0"
+                        src={skillIcons[skill] || ''}
                         alt={`${skill} logo`}
+                        onError={(e) => {
+                            console.log(`Failed to load logo for: ${skill}`);
+                            e.currentTarget.style.display = 'none';
+                        }}
                     />
-                    <div className="text-textColor text-xl font-medium">
+                    <div className="text-textColor text-3xl xs:text-lg font-medium">
                         {skill}
                     </div>
                 </div>
