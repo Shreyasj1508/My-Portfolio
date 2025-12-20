@@ -8,6 +8,7 @@ import AnimatedImg from './assets/Animated.png';
 import SortingImg from './assets/sorting.png';
 import devtinder from './assets/Dev-Tinder.png';
 import quickbill from './assets/Quickbill.png';
+import vibeconnect from './assets/VibeConnect.png';
 
 const Info = {
     name: "Shreyas Jaiswal",
@@ -65,13 +66,13 @@ const ProjectInfo = [
         github: "https://github.com/Shreyasj1508/Animated-Website"
     },
     {
-        title: "Sorting Visualizer",
-        desc: "The Sorting Visualizer is an interactive web application that demonstrates sorting algorithms, allowing users to visualize each algorithm in action.",
-        image: SortingImg, 
+        title: "VibeConnect - Social Media ChatApp",
+        desc: "VibeConnect is a full-stack real-time platform for video calling and instant messaging built with React, Node.js, Express, and MongoDB. It uses WebRTC and Stream.io SDKs to deliver low-latency video and chat performance. The app also includes secure JWT-based authentication and a complete social system with user discovery, friend requests, and notifications.",
+        image: vibeconnect, 
         live: false,
-        technologies: ["HTML", "CSS", "JavaScript"],
-        link: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Sorting_Visualizer",
-        github: "https://github.com/Shreyasj1508/Frontend-Projects/tree/main/Sorting_Visualizer"
+        technologies: ["React","JavaScript","Node.js","Express","MongoDB","WebRTC","Stream.io","JWT", "SDK"],
+        link: "https://vibe-connect-video-calling-realtime-taupe.vercel.app/",
+        github: "https://github.com/Shreyasj1508/VibeConnect-Video-Calling-Realtime-Chat-App-Social-App"
     },
    
 ];
