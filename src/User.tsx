@@ -167,7 +167,7 @@ const LeadershipExperienceInfo = [
     {
         role: "Full stack developer Intern",
         company: "AlmaMate",
-        date: "Aug 2025 - Sep 2025",
+        date: "Aug 2025 - Nov 2025",
         desc: "•Developing a B2B web platform using the MERN stack (MongoDB, Express.js, React, Node.js).\n• Implementing features for user management, client onboarding, and secure data processing.\n• Optimizing application performance and scalability to support production-level workloads.\n• Building modular components for buyer, seller, and admin roles with role-based access control.",
         skills: ["React.js", "JavaScript", "Node.js","Express.js","MongoDB", "Teamwork", "UI/UX"],
         logo: abesImage 
